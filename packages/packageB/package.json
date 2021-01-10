@@ -1,0 +1,7 @@
+{
+  "name": "package-b",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint ./src --ext graphql"
+  }
+}

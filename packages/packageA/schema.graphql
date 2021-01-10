@@ -1,0 +1,7 @@
+type Viewer {
+  id: ID!
+}
+
+type Query {
+  viewer: Viewer
+}
