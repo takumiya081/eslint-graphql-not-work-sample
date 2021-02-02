@@ -1,3 +1,5 @@
+const path = require('path');
+
 const ERROR = 'error';
 
 module.exports = {
@@ -7,8 +9,8 @@ module.exports = {
       parser: '@graphql-eslint/eslint-plugin',
       plugins: ['@graphql-eslint'],
       parserOptions: {
-        schema: '../packageA/schema.graphql',
-        operations: ['./src/**/*.graphql'],
+        schema: path.resolve(__dirname, '../packageA/schema.graphql'),
+        operations: [path.resolve(__dirname, './src/**/*.graphql')],
     },
       rules: {
         '@graphql-eslint/no-anonymous-operations': ERROR,
