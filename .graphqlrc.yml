@@ -1,1 +1,2 @@
 schemaPath: "packages/packageA/schema.graphql"
+documents: "packages/**/*.graphql"

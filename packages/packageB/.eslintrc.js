@@ -11,7 +11,7 @@ module.exports = {
       parserOptions: {
         schema: path.resolve(__dirname, '../packageA/schema.graphql'),
         operations: [path.resolve(__dirname, './src/**/*.graphql')],
-    },
+      },
       rules: {
         '@graphql-eslint/no-anonymous-operations': ERROR,
         '@graphql-eslint/require-id-when-available': ERROR,
