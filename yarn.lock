@@ -153,10 +153,10 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@graphql-eslint/eslint-plugin@^3.11.0":
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/@graphql-eslint/eslint-plugin/-/eslint-plugin-3.11.0.tgz#467e1383539b2a40dcaf6e6d4ca96a98ca292e43"
-  integrity sha512-E1chU17TF6aFu6mzFy8551d3DP5cNEDJQoXcFji2fJESFni1Q9QWJYIpfTlSIsyzUOrmRhGBIJTPpR5B89Wq1g==
+"@graphql-eslint/eslint-plugin@3.11.1-alpha-20220926102745-dd5901a":
+  version "3.11.1-alpha-20220926102745-dd5901a"
+  resolved "https://registry.yarnpkg.com/@graphql-eslint/eslint-plugin/-/eslint-plugin-3.11.1-alpha-20220926102745-dd5901a.tgz#0b5491a7d8056f59961614a428326e593b628061"
+  integrity sha512-4JcsDtaEDYFUSg9D1FvkYJE2EKP5FIPHORnOGz+eBSoSK/TbIzPqMB2D725We/GKfAwDuDVYzS2lqh4R+LXWkQ==
   dependencies:
     "@babel/code-frame" "^7.16.7"
     "@graphql-tools/code-file-loader" "^7.2.14"

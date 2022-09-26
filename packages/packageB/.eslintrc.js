@@ -9,7 +9,7 @@ module.exports = {
       plugins: ['@graphql-eslint'],
       parserOptions: {
         schema: path.resolve(__dirname, '../packageA/schema.graphql'),
-        operations: [path.resolve(__dirname, './src/**/*.graphql')],
+        operations: path.resolve(__dirname, './src/**/*.graphql'),
         skipGraphQLConfig: true
       },
     },
