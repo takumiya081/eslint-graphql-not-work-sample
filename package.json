@@ -8,8 +8,9 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@graphql-eslint/eslint-plugin": "^0.7.1",
-    "eslint": "^7.17.0",
-    "graphql": "^15.4.0"
+    "@graphql-eslint/eslint-plugin": "^3.11.0",
+    "eslint": "^8.24.0",
+    "graphql": "^16.6.0",
+    "typescript": "^4.8.3"
   }
 }
